@@ -1,0 +1,37 @@
+body {
+	background: url("img/background.jpg");
+}
+
+div {
+	width: 400px
+	display: block;
+	padding: 300px 200px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: red;
+    width: 40px;
+    margin-left: 0;
+}
+
+h2 {
+	font-family: "helvetica", sans-serif;
+	color: white;
+	font-weight: lighter;
+}
+
+img {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#header {
+	background-image: url("img/stripes.png");
+    background-repeat: repeat-x;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
