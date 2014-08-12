@@ -1,0 +1,56 @@
+/*
+Author: Tricia Ling | @tricialing
+*/
+
+/********************************************/
+/*Basic Styling
+/********************************************/
+body {
+	font-family: sans-serif;
+	background: url(img/background.jpg);
+	padding: 5%;
+	font-size: 100%;
+	color: white;
+}
+
+h1{
+	font-size: 3em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: lightcoral;
+}
+
+a:hover {
+	color: white;
+}
+
+/********************************************/
+/*LAYOUT
+/********************************************/
+
+
+
+.clear {
+	display: block;
+	height: 100px;
+}
+
+/********************************************/
+/*LAYOUT
+/********************************************/
+
+@media screen and (min-width: 1000px) {
+	h1 {
+	  font-size: 4em; /* Increase the size of the page headline */
+	}
+
+	.align-left {
+		width: 50%;
+	}
+}
