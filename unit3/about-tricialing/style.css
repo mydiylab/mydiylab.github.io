@@ -6,7 +6,7 @@ Author: Tricia Ling | @tricialing
 /*Basic Styling
 /********************************************/
 body {
-	font-family: sans-serif;
+	font-family: 'Ubuntu Mono', monospace;
 	background: url(img/background.jpg);
 	padding: 2%;
 	font-size: 100%;
@@ -19,6 +19,7 @@ h1{
 
 h2{
 	font-size: 2em;
+	margin-bottom: -1%;
 }
 
 hr {
@@ -28,6 +29,7 @@ hr {
 
 p {
 	font-size: 1em;
+
 }
 
 a {
@@ -48,7 +50,7 @@ a:hover {
 }
 
 /********************************************/
-/*LAYOUT
+/*MEDIA QUERY
 /********************************************/
 
 @media screen and (min-width: 760px) {
