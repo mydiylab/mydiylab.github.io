@@ -8,11 +8,19 @@ Author: Tricia Ling | @tricialing
 body {
 	font-family: "Ubuntu Mono", monospace;
 	background: url(img/background.jpg);
+	background-size: cover;
+	background-repeat: none;
 	padding: 2%;
 	font-size: 100%;
 	color: white;
 }
 
+div {
+	background: black;
+	opacity: 0.8;
+  	filter: alpha(opacity=50);
+	padding: 3%;
+}
 h1{
 	font-size: 4em;
 }
@@ -49,7 +57,7 @@ a:hover {
 /********************************************/
 .clear {
 	display: block;
-	height: 90px;
+	height: 20px;
 }
 
 /********************************************/
