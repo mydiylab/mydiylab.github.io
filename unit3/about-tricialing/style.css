@@ -14,15 +14,15 @@ body {
 }
 
 h1{
-	font-size: 8em;
+	font-size: 3em;
 }
 
 h2{
-	font-size: 5em;
+	font-size: 2em;
 }
 
 p {
-	font-size: 3em;
+	font-size: 1em;
 }
 
 a {
@@ -49,9 +49,16 @@ a:hover {
 /*LAYOUT
 /********************************************/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 760px) {
 	h1 {
-	  font-size: 4em; /* Increase the size of the page headline */
+	  font-size: 1em; /* Increase the size of the page headline */
+	}
+	h2{
+	font-size: 1em;
+	}
+
+	p {
+		font-size: 1em;
 	}
 
 	.align-left {
