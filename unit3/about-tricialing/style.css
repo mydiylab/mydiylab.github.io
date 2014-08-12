@@ -7,9 +7,7 @@ Author: Tricia Ling | @tricialing
 /********************************************/
 body {
 	font-family: "Ubuntu Mono", monospace;
-	background: url(img/background.jpg);
-	background-size: cover;
-	background-repeat: none;
+	background: antiquewhite;
 	padding: 2%;
 	font-size: 100%;
 	color: white;
@@ -65,6 +63,12 @@ a:hover {
 /********************************************/
 
 @media screen and (min-width: 760px) {
+	body {
+	background: url(img/background.jpg);
+	background-size: cover;
+	background-repeat: none;
+	}
+
 	h1 {
 		font-size: 4em; 
 	}
