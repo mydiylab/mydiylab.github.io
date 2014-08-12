@@ -6,7 +6,7 @@ Author: Tricia Ling | @tricialing
 /*Basic Styling
 /********************************************/
 body {
-	font-family: 'Ubuntu Mono', monospace;
+	font-family: monospace;
 	background: url(img/background.jpg);
 	padding: 2%;
 	font-size: 100%;
@@ -47,22 +47,41 @@ a:hover {
 .clear {
 	display: block;
 	height: 90px;
+}
 
 /********************************************/
 /*MEDIA QUERY
 /********************************************/
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 760px) {
 	h1 {
-	  font-size: 3em; 
+		font-size: 4em; 
 	}
 
 	h2{
-		font-size: 2em;
+		font-size: 3em;
 	}
 
 	p {
-		font-size: 0.1em;
+		font-size: 2em;
+	}
+
+	.clear {
+		display: block;
+		height: 100px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	h1 {
+		font-size: 3.5em; 
+	}
+
+	h2{
+		font-size: 2.5em;
+	}
+
+	p {
+		font-size: 1.5em;
 	}
 
 	.align-left {
@@ -72,5 +91,5 @@ a:hover {
 	.clear {
 		display: block;
 		height: 100px;
-}
+	}
 }
