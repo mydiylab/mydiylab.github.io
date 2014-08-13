@@ -20,12 +20,12 @@ div {
 	padding: 3%;
 }
 h1{
-	font-size: 3em;
+	font-size: 4em;
 }
 
 h2{
-	font-size: 2em;
-	margin-bottom: -1%;
+	font-size: 3em;
+	margin-bottom: -5%;
 }
 
 hr {
@@ -35,7 +35,6 @@ hr {
 
 p {
 	font-size: 2em;
-
 }
 
 a {
@@ -61,11 +60,14 @@ a:hover {
 /********************************************/
 /*MEDIA QUERY
 /********************************************/
-@media screen and (min-width: 410px) {
-	.small-text {
-		font-size: 1.5em;
+
+@media screen and (min-width: 320px) {
+
+	span {
+		font-size: 1em;
 	}
-}
+}	
+
 @media screen and (min-width: 760px) {
 	body {
 	background: url(img/background.jpg);
@@ -79,12 +81,12 @@ a:hover {
 
 	h2{
 		font-size: 3em;
+		margin-bottom: -3%;
 	}
 
 	p {
 		font-size: 2em;
 	}
-
 	.clear {
 		display: block;
 		height: 100px;
@@ -98,6 +100,7 @@ a:hover {
 
 	h2{
 		font-size: 2.5em;
+		margin-bottom: -3%;	
 	}
 
 	p {
