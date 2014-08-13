@@ -61,7 +61,11 @@ a:hover {
 /********************************************/
 /*MEDIA QUERY
 /********************************************/
-
+@media screen and (min-width: 410px) {
+	.small-text {
+		font-size: 1.5em;
+	}
+}
 @media screen and (min-width: 760px) {
 	body {
 	background: url(img/background.jpg);
