@@ -29,7 +29,7 @@ img {
 
 #header {
 	background-image: url("img/stripes.png");
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;;
     width: 100%;
     position: absolute;
     left: 0px;
