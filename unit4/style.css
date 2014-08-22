@@ -6,6 +6,7 @@ Author: Tricia Ling | @tricialing
 /*Basic Styling
 /********************************************/
 body {
+	margin: 0;
 	background: url(img/bg.jpg);
 	font-size: 100%;
 	font-family: 'Raleway', sans-serif;
@@ -25,19 +26,29 @@ h1 {
 
 h2 {
 	font-size: 1em;
-	margin-top: 0;
+	margin: 5% 0;
+}
+
+hr{
+	width: 60%;
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
 }
 
 p{
 	font-weight: 300;
+	margin-top: 0;
 }
+
 
 /********************************************/
 /*LAYOUT
 /********************************************/
 .content-band{
 	background: #d9d9d9;
-	margin: 30% 0 0 0;
+	margin: 20% 0 0 0;
 	width: 105%;
 	padding: 10% 0;
 }
@@ -46,13 +57,16 @@ p{
 	width: 80%;
 	margin: 0 auto;
 	}
+.feature-image {
+	display: none;
+	}
 
 /********************************************/
 /*MEDIA QUERY
 /********************************************/
 
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 600px) {
 
 	h1 {
 		font-size: 6em; 
@@ -60,16 +74,64 @@ p{
 
 	h2{
 		font-size: 1.5em;
+		margin: 3% 0 0 0;
+	}
+
+	hr{
+		display: none;
+	}
+
+	p{
+		margin-top: 5%;
+	}
+
+	.feature-image {
+		display: flex;
+		width: 100%;
+		float: center;
+	}
+
+	.clear{
+		clear: both;
+	}
+
+	.circular {
+	float: center;
+	border-radius: 50%;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	}
+
+	.circular img {
+	height: 100%;
+	width: 100%;
 	}
 
 	.content-band{
 	margin: 10% 0 0 0;
+	padding: 5% 0;
+	}
+
+	.center {
+		width: 50%;
+		padding-bottom: 0;
 	}
 }
 @media screen and (min-width: 1000px) {
-		.center {
-		width: 40%;
-		margin: 0 auto;
-
+	h2 {
+		margin: 1% 0 0 0;
+	}
+	.center {
+		width: 35%;
+	}
+	.circular {
+		float: center;
+		width: 250px;
+		height: 250px;
+		}
+	.content-band{
+		margin: 7% auto;
+		padding: 1% 0 1% 0;
 	}
 }
