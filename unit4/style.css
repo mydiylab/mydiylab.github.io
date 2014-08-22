@@ -1,0 +1,74 @@
+/*
+Author: Tricia Ling | @tricialing
+*/
+
+/********************************************/
+/*Basic Styling
+/********************************************/
+body {
+	background: url(img/bg.jpg);
+	font-size: 100%;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #333;
+}
+section {
+	margin: auto 0;
+}
+
+h1 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 3.2em;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 1em;
+	margin-top: 0;
+}
+
+p{
+	font-weight: 300;
+}
+
+img
+{
+	max-width: 40%;
+	top: 10%;
+	left: 10%;
+	border-radius: 3px;
+}
+
+/********************************************/
+/*LAYOUT
+/********************************************/
+.center {
+	width: 80%;
+	margin: 0 auto;
+	}
+/********************************************/
+/*MEDIA QUERY
+/********************************************/
+
+
+@media screen and (min-width: 760px) {
+
+	h1 {
+		font-size: 5em; 
+	}
+
+	h2{
+		font-size: 1.5em;
+	}
+	img
+			{
+	max-height: 60%;
+	top: 10%;
+	left: 10%;
+	border-radius: 3px;
+	}
+	.center {
+	width: 60%;
+	margin: 0 auto;
+	}
+}
