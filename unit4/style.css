@@ -14,12 +14,13 @@ body {
 }
 section {
 	margin: auto 0;
+	padding: 3%;
 }
 
 h1 {
 	font-family: 'Lobster Two', cursive;
-	font-size: 3.2em;
-	margin-bottom: 0;
+	font-size: 4em;
+	margin: 0;
 }
 
 h2 {
@@ -31,29 +32,21 @@ p{
 	font-weight: 300;
 }
 
-img
-{
-	max-width: 30%;
-	top: 10%;
-	left: 10%;
-	border-radius: 3px;
-	padding: 1% 0;
-}
-
-.mid-band{
-	background: #333;
-	margin-left: -3%;
-	width: 105%;
-	padding: 1%;
-}
-
 /********************************************/
 /*LAYOUT
 /********************************************/
+.content-band{
+	background: #d9d9d9;
+	margin: 30% 0 0 0;
+	width: 105%;
+	padding: 10% 0;
+}
+
 .center {
 	width: 80%;
 	margin: 0 auto;
 	}
+
 /********************************************/
 /*MEDIA QUERY
 /********************************************/
@@ -62,28 +55,21 @@ img
 @media screen and (min-width: 760px) {
 
 	h1 {
-		font-size: 5em; 
+		font-size: 6em; 
 	}
 
 	h2{
 		font-size: 1.5em;
 	}
-	img
-	{
-		max-height: 30%;
-		top: 10%;
-		left: 10%;
-		border-radius: 3px;
-		padding: 1%;
+
+	.content-band{
+	margin: 10% 0 0 0;
 	}
-	.center {
-		width: 60%;
+}
+@media screen and (min-width: 1000px) {
+		.center {
+		width: 40%;
 		margin: 0 auto;
-	}
-	.mid-band{
-		background: #333;
-		margin-left: -3%;
-		width: 105%;
-		padding: 1%;
+
 	}
 }
