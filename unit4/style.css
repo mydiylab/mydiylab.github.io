@@ -33,10 +33,18 @@ p{
 
 img
 {
-	max-width: 40%;
+	max-width: 30%;
 	top: 10%;
 	left: 10%;
 	border-radius: 3px;
+	padding: 1% 0;
+}
+
+.mid-band{
+	background: #333;
+	margin-left: -3%;
+	width: 105%;
+	padding: 1%;
 }
 
 /********************************************/
@@ -61,14 +69,21 @@ img
 		font-size: 1.5em;
 	}
 	img
-			{
-	max-height: 60%;
-	top: 10%;
-	left: 10%;
-	border-radius: 3px;
+	{
+		max-height: 30%;
+		top: 10%;
+		left: 10%;
+		border-radius: 3px;
+		padding: 1%;
 	}
 	.center {
-	width: 60%;
-	margin: 0 auto;
+		width: 60%;
+		margin: 0 auto;
+	}
+	.mid-band{
+		background: #333;
+		margin-left: -3%;
+		width: 105%;
+		padding: 1%;
 	}
 }
