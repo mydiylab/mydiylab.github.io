@@ -13,8 +13,8 @@ body {
 	color: #333;
 }
 section {
-	margin: auto 0;
-	padding: 3%;
+	margin: 0 auto;
+	padding: 1%;
 }
 
 h1 {
@@ -38,6 +38,13 @@ hr{
 p{
 	font-weight: 300;
 	margin-top: 0;
+}
+
+footer {
+	margin-top: 1em;
+	font-size: 0.5em;
+	text-align: center;
+	color: #999;
 }
 
 
@@ -64,10 +71,9 @@ p{
 /*MEDIA QUERY
 /********************************************/
 
-
 @media screen and (min-width: 600px) {
 	body{
-		background: url(img/bg.jpg);
+	background: url(img/bg.jpg);
 	}
 	
 	h1 {
@@ -76,22 +82,17 @@ p{
 
 	h2{
 		font-size: 1.5em;
-		margin: 3% 0 0 0;
+		margin: 1% 0;
 	}
-
 	hr{
 		display: none;
 	}
 
-	p{
-		margin-top: 5%;
-	}
-
 	.feature-image {
 		display: flex;
-		margin: 0 auto;
+		margin-left: auto;
+		margin-right: auto;
 		width: 50%;
-		float: center;
 	}
 
 	.clear{
@@ -99,24 +100,24 @@ p{
 	}
 
 	.circular {
-	float: center;
-	border-radius: 50%;
-	overflow: hidden;
-	width: 200px;
-	height: 200px;
-	margin: 1%;
+		float: left;
+		border-radius: 50%;
+		overflow: hidden;
+		width: 160px;
+		height: 160px;
+		margin: 2%;
 	}
 
 	.circular img {
-	height: 100%;
-	width: 100%;
+		height: 100%;
+		width: 100%;
 	}
 
 	.content-band{
-	background: #d9d9d9;
-	width: 105%;
-	margin: 10% 0 0 -2%;
-	padding: 5% 0;
+		background: #d9d9d9;
+		width: 105%;
+		margin: 7% 0 0 -2%;
+		padding: 1% 0;
 	}
 
 	.center {
@@ -124,20 +125,67 @@ p{
 		padding-bottom: 0;
 	}
 }
-@media screen and (min-width: 1000px) {
-	h2 {
-		margin: 1% 0 0 0;
+
+@media screen and (min-width: 800px) {
+	.circular {
+		float: center;
+		width: 200px;
+		height: 200px;
 	}
-	.center {
-		width: 35%;
+}
+
+@media screen and (min-width: 900px) {
+	.circular {
+		float: center;
+		width: 245px;
+		height: 245px;
 	}
+}
+
+@media screen and (min-width: 1100px) {
 	.circular {
 		float: center;
 		width: 250px;
 		height: 250px;
-		}
+	}
+
+	.feature-image {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		width: 45%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.center {
+		width: 37%;
+	}
+
+	.circular {
+		float: center;
+		width: 260px;
+		height: 260px;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+
+	.circular {
+		float: center;
+		width: 270px;
+		height: 270px;
+	}
+
 	.content-band{
 		margin: 7% 0 0 -1%;
 		padding: 1% 0 1% 0;
+	}
+
+	.feature-image {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
 	}
 }
