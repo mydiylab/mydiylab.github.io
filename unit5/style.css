@@ -1,0 +1,53 @@
+body{
+	background: grey;
+	font-size: 100%;
+	font-family: 'PT Sans Narrow', sans-serif;
+		line-height: 1.8em;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'PT Sans Narrow', sans-serif;
+	border-bottom: 1px dashed black;
+	display: inline-block;
+	margin: 0;
+}
+
+a {
+	text-decoration: none
+}
+
+
+footer{
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size: 0.5em;
+	text-align: center;
+	margin-top: 3em;
+}
+
+.logo {
+	background: url("../mydiylab.com/styleguide/img/logo.png");
+	background-repeat: no-repeat;
+	display: block;
+	width: 130px;
+	height: 130px;
+	margin: 0 auto 2em auto;
+
+	/*hide text*/
+	text-indent: 100em;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.question {
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+.wrapper {
+	background: white;
+	width: 40em;
+	margin: 0 auto;
+	padding: 5em;
+}
