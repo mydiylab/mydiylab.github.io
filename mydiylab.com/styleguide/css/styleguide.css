@@ -1,25 +1,32 @@
 .sg-header {
 	font-family: sans-serif;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #dddddd;
+	font-size: 0.8em;
+	color: grey;
+	font-weight: 300;
 }
-  .sg-colors li {
-    overflow: hidden;
-    border: 1px solid #dddddd;
-    padding: 0.3em;
-    margin: 0 0.2em 0.2em 0; }
-    @media all and (min-width: 30em) {
-      .sg-colors li {
-        float: left;
-        width: 5em; } }
 
 .sg-swatch {
   display: block;
-  height: 1.5em;
-  width: 50%; }
+  height: 80px;
+  width: 80px; 
+  border: 1px solid #dddddd;
+  padding: 1em;
+  margin: 0 0.2em 0.2em 0;
+}
 
-  .sg-label {
-  line-height: 1; }
+.sg-2nd-swatch{
+  display: block;
+  height: 40px;
+  width: 40px; 
+  border: 1px solid #dddddd;
+  padding: 1em;
+  margin: 0 0.2em 0.2em 0;
+}
+.sg-label {
+  line-height: 1; 
+}
 
-  .sg-colors {
-  overflow: hidden; }
-  
+li {
+	list-style: none;
+}
