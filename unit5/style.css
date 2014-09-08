@@ -19,6 +19,9 @@ a {
 	text-decoration: none
 }
 
+img {
+	width: 80%;
+}
 footer{
 	color: grey;
 	font-size: 1em;
@@ -40,6 +43,9 @@ footer{
 	overflow: hidden;
 }
 
+.sketch-title {
+	font-size: 1.5em;
+}
 .question {
 	font-weight: 700;
 	font-size: 1.2em;
