@@ -1,23 +1,43 @@
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 100%;
 }
 
 h1 {
+	font-family: 'Raleway', sans-serif;
 	font-size: 4em;
 	padding: 0.8em 0;
 	color: #4A4A4A;
 }
 h3{
-	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1.8em;
 	font-weight: 700;
 	color: #4A4A4A;
 }
 
 h4{
-	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1.5em;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 700;
+	color: #4A4A4A;
+}
+
+img {
+	margin-bottom: 1em;
+}
+
+p {
+	margin: 1em;
+}
+
+span {
+	font-weight: 800;
+}
+.clear {
+	clear: both;
 }
 .container {
 	width: 80%;
@@ -26,13 +46,13 @@ h4{
 
 .blog-title {
 	background-color: #54F9C2;
-	padding: 0.3em 0.3em;
+	padding: 0.3em 0.3em 0.3em 3em;
+	margin-left: -3em;
 }
 
 .date{
 	font-size: 0.9em;
 	padding: 0.3em 0.3em;
-	margin-bottom: 2em;
 }
 
 .side-title{
@@ -42,25 +62,28 @@ h4{
 	padding-left: 0.5em;
 }
 
-
 .nav {
 	background-color: #7F7F7F;
+	width: 100%;
 	color: white;
+	padding-left: 5em;
 }
-.nav li{
+.nav ul{
 	display: inline;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 1.5em;
-	margin: 2% 0;
 }
 
-.nav li a{
+.nav li{
+	display: inline;
+	font-size: 1.3em;
+	margin: 0.5em 0;
 	color: white;
-	margin: 1em;
 	text-decoration: none;
 }
 
-
+.social li a{
+	padding: none;
+	margin: none;
+}
 
 .left{
 	float:left;
@@ -70,5 +93,4 @@ h4{
 .right{
 	float: right;
 	width: 40%;
-
 }
