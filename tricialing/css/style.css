@@ -42,10 +42,20 @@ footer {
 	height: 30px;
 	background: #ccc;
 	position:absolute;
+	left: 0;
+	bottom: 0;
 	padding-top: 10px;
 	color: white;
 	text-align: center;
 	font-size: 0.8em;
+}
+
+ul li{
+	display: inline;
+}
+
+.align-left {
+	align: left;
 }
 
 .bottom-border {
@@ -62,6 +72,7 @@ footer {
 .bottom {
 	padding-top: 55px;
 }
+
 
 .center {
 	margin: auto 0;
@@ -82,6 +93,18 @@ footer {
 	width: 45%;
 }
 
+.contact-form {
+	padding: 0;
+  	width: ;
+  	height: auto;
+    color: #D3D3D3;
+}
+
+input {
+	max-width: 300px;
+	padding: 5px;
+	margin: 5px;
+}
 
 .left {
 	float: left;
@@ -95,6 +118,12 @@ footer {
 .nav ul li{
 	display: inline;
 	padding: 5px;
+}
+
+.portfolio {
+	width: 380px;
+	height: auto;
+	padding: 10px;
 }
 
 .right {
